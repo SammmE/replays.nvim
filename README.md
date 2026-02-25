@@ -18,7 +18,7 @@
 
 ```lua
 {
-  "yourusername/replays.nvim",
+  "sammme/replays.nvim",
   config = function()
     require("replays").setup({
       -- Optional: customize settings
@@ -33,7 +33,7 @@
 
 ```lua
 use {
-  "yourusername/replays.nvim",
+  "sammme/replays.nvim",
   config = function()
     require("replays").setup()
   end
@@ -43,7 +43,7 @@ use {
 ### Using [vim-plug](https://github.com/junegunn/vim-plug)
 
 ```vim
-Plug 'yourusername/replays.nvim'
+Plug 'sammme/replays.nvim'
 
 " In your init.lua or init.vim:
 lua require("replays").setup()
